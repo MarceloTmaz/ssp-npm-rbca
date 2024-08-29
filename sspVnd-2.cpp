@@ -3432,8 +3432,8 @@ vector<vector<int>>vnd(vector<vector<int>>entrada) {
         if (melhorou == false) {// cout << "morri" << endl;
           //  cout << "maior" << endl;
             //tmp = maiorArreptimento(tmp);
-          //  tmp = realocar(tmp);
-            tmp = insercaoAleatoria(tmp);
+            tmp = realocar(tmp);
+           // tmp = insercaoAleatoria(tmp);
      // cout << "no morri" << endl;
             int solucaoMakespan = makespan(solucao);
             int tmpMakespan = makespan(tmp);
